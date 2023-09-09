@@ -72,6 +72,7 @@ public class ShipControls : MonoBehaviour
     public void CallForEndOfStartSequence()
     {
         _introSequenceFinished = true;
+        LowerSpeed();
     }
 
     public void LowerSpeed()
